@@ -21,7 +21,7 @@ import software.amazon.awssdk.auth.credentials.DefaultCredentialsProvider;
 import software.amazon.codeguruprofilerjavaagent.Profiler;
 
 public class App {
-    //set up test
+
     public static void main(String[] args) {
         // start the profiler
         Profiler.builder().profilingGroupName("<insert the profiling group name here>")
